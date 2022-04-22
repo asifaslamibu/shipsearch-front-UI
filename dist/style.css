@@ -1,0 +1,218 @@
+
+
+/* vertical panel */
+
+.panel-container-vertical {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+
+.panel-top {
+  flex: 0 0 auto;
+  /* only manually resize */
+  padding: 10px;
+  height: 50vh;
+  width: 100%;
+  white-space: nowrap;
+  background: #fff;
+  min-height: 100px;
+  max-height: calc(85vh - 10vh);
+  color: white;
+  overflow: hidden;
+  overflow: auto;
+}
+
+.splitter-horizontal {
+  flex: 0 0 auto;
+  height: 10px;
+  /* background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/hsizegrip.png) center center no-repeat #535353; */
+  background-color: #49997d;
+  cursor: row-resize;
+  border: 1px solid #49997d;
+  
+}
+
+.panel-bottom {
+  flex: 1 1 auto;
+  /* resizable */
+  padding: 10px;
+  min-height: 100px;
+
+  background: #fff;
+  overflow: auto;
+}
+
+label {
+  font-size: 1.2em;
+  display: block;
+  font-weight: bold;
+  margin: 15px 0 10px;
+  font-size: 13px;
+}
+
+tbody tr{
+  color:black;
+  font-size: 12px;
+    font-family: 'Inter';
+}
+.top_bt{
+  width: 211px;
+}
+.nice-select{
+  width: 100%;
+  height: 50px;
+}
+
+.main-menu__item .main-menu__link{
+  padding: 35px 0 14px 0;
+}
+table.dataTable td.dt-control:before{
+  background-color: #408588;
+  }
+  table.dataTable tr.dt-hasChild td.dt-control:before {
+      content: "-";
+      background-color: #408588;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 2px 5px !important;
+    margin-bottom: 0;
+    font-size: 13px !important;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#myBtn{
+  background-color: #408588 !important;
+}
+
+#add_ser_req{
+  background-color: #789f8a !important;
+}
+table.dataTable thead th,
+table.dataTable thead td {
+    color: #000 !important;
+    padding: 2px !important;
+    font-size: 12px !important;
+    /* font-family: 'Inter'; */
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 2px 2px !important;
+}
+
+.button--light-green {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  color: #414a53 !important;
+  height: 40px !important;
+  line-height: 30px !important;
+  min-width: 98px !important;
+  text-align: left !important;
+  border: 2px solid #408588 !important;
+  border-radius: 0 0 20px 0 !important;
+  padding: 0 20px !important;
+}
+.button.button--light-green {
+  background: #408588 !important;
+  color: white !important;
+}
+
+.button--red {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  color: #414a53 !important;
+  height: 40px !important;
+  line-height: 30px !important;
+  min-width: 98px !important;
+  text-align: left !important;
+  border: 2px solid #e65540 !important;
+  border-radius: 0 0 20px 0 !important;
+  padding: 0 20px !important;
+}
+.button.button--red {
+  background: #e65540 !important;
+  color: white !important;
+}
+tbody tr {
+  color: black !important;
+  font-size: 12px !important;
+  font-family: 'Inter' !important;
+}
+tbody tr {
+  color: black !important;
+  font-size: 10px !important;
+}
+.expend_label {
+  font-weight: 700 !important;
+  color: #000 !important;
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+}
+
+.expend_text {
+  color: #000 !important;
+  font-size: 12px !important;
+}
+
+.select2-container--default .select2-selection--multiple:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  right: 6px;
+  margin-left: -4px;
+  margin-top: -2px;top: 50%;
+  width: 0;cursor: pointer
+}
+
+.select2-container--open .select2-selection--multiple:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  border-color: transparent transparent #888 transparent;
+  border-width: 0 4px 5px 4px;
+  height: 0;
+  right: 6px;
+  margin-left: -4px;
+  margin-top: -2px;top: 50%;
+  width: 0;cursor: pointer
+}
+.switch_text{
+  
+    color: #000 !important;
+
+}

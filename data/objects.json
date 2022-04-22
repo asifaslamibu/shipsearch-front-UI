@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": "33",
+      "vizal_type": "Any",
+      "dwt_from": "1",
+      "dwt_to": "19999",
+      "charter_type": "Any",
+      "laycaon_date_from": "2021-01-29",
+      "laycaon_date_to": "2021-11-30",
+      "region": "Any",
+      "country": "Any",
+      "port": "Any"
+    }
+   ]
+}

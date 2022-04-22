@@ -1,0 +1,17 @@
+{
+    "data": [
+      {
+        "id": "VS25001",
+      "vizal_name": "Test Vessel",
+      "vizal_type": "Any",
+      "charter_type": "Any",
+      "laycaon_date_from": "2021-01-29",
+      "laycaon_date_to": "2021-11-30",
+      "region": "Any",
+      "country": "Any",
+      "port": "Any",
+      "Posted_on" : "2021-11-29"
+    
+      }
+    ]
+  }
